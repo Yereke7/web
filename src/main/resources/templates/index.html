@@ -49,6 +49,9 @@
                         </div>
                         <div th:if='${isAuth != "anonymousUser"}'>
                             <button mat-button class="header_button_blue">
+                                <div class="header_button_text" th:text="${isAuth.username}"></div>
+                            </button>
+                            <button mat-button class="header_button_blue">
                                 <div class="header_button_text">
                                     <a href="/logout">Logout</a>
                                 </div>
