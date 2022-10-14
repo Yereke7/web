@@ -1,0 +1,142 @@
+.main_block {
+    min-height: 1084px;
+    /* background: url("../img/main_bg.png") cover center/center no-repeat; */
+    background-color: #5C878E;
+}
+
+/* header style */
+.header {
+    display: flex;
+    align-items:center;
+    min-height: 10px;
+}
+.row {
+    align-items: center;
+}
+.header_logo {
+    display: block;
+    width: 70px;
+}
+.header_logo img {
+    width: 100%;
+}
+.header_icon {
+    display: block;
+
+    margin-right: 7px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu_link {
+    display: block;
+    width: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.menu_link:hover {
+    color: #E58411;
+    text-decoration-line: underline;
+}
+.menu_item  {
+
+    padding-right: 30px;
+}
+.menu_item:last-child {
+    border-right: none;
+}
+.header_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.header_button_orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 37px;
+    margin-right: 7px;
+
+    background: rgba(242, 141, 23, 0.88);
+    border-radius: 5px;
+    border: none;
+}
+
+.header_button_blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 37px;
+    background: #649199;
+    border-radius: 5px;
+    border: none;
+}
+.header_button_text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.main_block_content{
+    display: block;
+    width: 1036px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+.main_block_content_title {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+.main_block_content_subtitle {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 648px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    /* or 35px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.8;
+}
+.main_block_content_button {
+    display: block;
+    margin: 0 auto;
+    width: 173px;
+    height: 51px;
+    margin-top: 60px;
+    background: rgba(246, 151, 63, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    font-family: 'Gilroy-Regular';
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
