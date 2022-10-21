@@ -284,9 +284,9 @@
     cursor: pointer;
 }
 
-.productNav ul li:first-child {
-    background: white;
-}
+/*.productNav ul li:first-child {*/
+/*    background: white;*/
+/*}*/
 
 .productNav ul li:last-child {
     margin-right: 30px;

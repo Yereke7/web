@@ -134,7 +134,21 @@
                 <li>Лампа</li>
             </ul>
         </div>
-
+<!--        <div th:if="${product == 'Стул'}">Стул</div>-->
+<!--        <div th:if="${product == 'Кровати'}">Кровати</div>-->
+<!--        <div th:if="${product == 'Диван'}">Диван</div>-->
+<!--        <div th:if="${product == 'Лампа'}">Лампа</div>-->
+        <form id="f" method="post" action="http://localhost:8080/updateP" hidden>
+            <input type="text" id="name">
+            <input type="number" id="price">
+        </form>
+<!--        <script>-->
+<!--            function updateP(name, price) {-->
+<!--                document.getElementById("name").value = name;-->
+<!--                document.getElementById("price").value = price;-->
+<!--                document.getElementById("f").onsubmit;-->
+<!--            }-->
+<!--        </script>-->
         <div class="products">
             <div class="product">
                 <div class="productImgBox">

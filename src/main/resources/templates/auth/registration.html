@@ -49,6 +49,17 @@
                                         <input class="form-control" type="password" th:field="*{password}" id="password" placeholder="Password"/>
                                         <div style="color: red" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password</div>
                                     </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input class="form-control" type="number" th:field="*{age}" id="age" placeholder="Age"/>
+                                        <div style="color: red" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age</div>
+                                    </div>
+
+                                    <div class="form-outline mb-4">
+                                        <input class="form-control" type="text" th:field="*{gmail}" id="gmail" placeholder="Gmail"/>
+                                        <div style="color: red" th:if="${#fields.hasErrors('gmail')}" th:errors="*{gmail}">Gmail</div>
+                                    </div>
+
                                     <div th:if="${param.error}" style="color: red">
                                         Неправильные имя или пароль
                                     </div>
